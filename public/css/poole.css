@@ -229,8 +229,6 @@ blockquote p:last-child {
 
 img {
   display: block;
-  max-width: 90%;
-  max-height: 90%;
   margin: 0 0 1rem;
   border-radius: 5px;
 }
