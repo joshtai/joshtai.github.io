@@ -114,7 +114,6 @@ a:-webkit-any-link {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
@@ -141,25 +140,38 @@ a:-webkit-any-link {
   color: black;
 }
 .nav-icon-list {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   display: flex;
 }
+
+
 
 /* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
   font-family: "PT Sans", serif;
-  font-size: 3.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.75rem;
+  text-align: center;
+}
+
+/* Sidebar img */
+.sidebar-img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 10rem;
+  margin-bottom: 0;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
+  margin-left: 1rem;
   margin-bottom: 1rem;
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -179,10 +191,11 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
+    top:    1rem;
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
-    padding-left: 1rem;
+
   }
 }
 
@@ -320,4 +333,20 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+
+
+
+/* Particle effects */
+/* ---- particles.js container ---- */
+#particles-js {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2d2d2d;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
