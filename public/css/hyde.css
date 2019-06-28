@@ -143,10 +143,17 @@ a:-webkit-any-link {
   color: black;
 }
 .nav-icon-list {
-
-  text-align: center;
+  justify-content: center;
   margin-top: 0.5rem;
   display: flex;
+}
+
+@media (min-width: 48em) {
+  .nav-icon-list {
+    justify-content: left;
+    margin-top: 0.5rem;
+    display: flex;
+  }
 }
 
 
@@ -155,7 +162,7 @@ a:-webkit-any-link {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "PT Sans", serif;
+  font-family: Arial, sans-serif;
   margin-left: auto;
   margin-right: auto;
   font-size: 2.75rem;
@@ -172,9 +179,11 @@ a:-webkit-any-link {
 }
 
 /* Sidebar nav */
-.sidebar-nav {
-  margin-left: 1rem;
-  margin-bottom: 1rem;
+@media (min-width: 48em) {
+  .sidebar-nav {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 .sidebar-nav-item {
   display: block;
