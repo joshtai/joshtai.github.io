@@ -146,6 +146,7 @@ a:-webkit-any-link {
 .nav-icon-list {
   justify-content: center;
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   display: flex;
 }
 
@@ -153,6 +154,7 @@ a:-webkit-any-link {
   .nav-icon-list {
     justify-content: left;
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     display: flex;
   }
 }
@@ -362,7 +364,12 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-
+@media (min-width: 48em) {
+  .squareimg {
+    width: auto;
+    max-width: 330px;
+  }
+}
 
 
 /* Particle effects */
