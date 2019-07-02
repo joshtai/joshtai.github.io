@@ -104,10 +104,6 @@ a:-webkit-any-link {
 }
 
 
-.blockcontent {
-    background-color: rgb(255, 255, 238);
-}
-
 
 /*
  * Sidebar
@@ -172,7 +168,7 @@ a:-webkit-any-link {
   font-family: Arial, sans-serif;
   margin-left: auto;
   margin-right: auto;
-  font-size: 2.75rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 
