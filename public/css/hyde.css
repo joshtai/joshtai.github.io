@@ -62,8 +62,12 @@ table {
     transform: scale(1.1);
 }
 .badge-primary {
-    color: #fff;
-    background-color: #268bd2;
+    color: black;
+    background-color: #ff4a4a;
+}
+
+.button-2 {
+  background-color: #f5c242;
 }
 
 .badge {
