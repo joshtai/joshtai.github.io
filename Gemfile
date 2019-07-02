@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem "jekyll"
+gem "jekyll", ">= 3.6.3"
 gem "rogue"
 gem "redcarpet"
 gem "addressable", "~> 2.5.2"
