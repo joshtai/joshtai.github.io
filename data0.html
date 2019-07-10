@@ -1,0 +1,74 @@
+---
+layout: page
+fulltitle: Test of data graph
+title: Power Outage
+pgorder: 9
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="798924f2-2024-4b2c-b24e-e666009b3ad0"></div>
+        </div>
+
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"7f48a859-e0df-4144-9109-7a2be5d713ea":{"roots":{"references":[{"attributes":{"callback":null,"tooltips":[["Date","@date"],["Type","@type"],["Start","@start_time"],["End","@end_time"]]},"id":"10ec4a9a-6f08-4f18-b3e8-085cd42efdc5","type":"HoverTool"},{"attributes":{"source":{"id":"d99d01fb-304e-492d-8803-f2d6f0483d68","type":"ColumnDataSource"}},"id":"92c90a3f-9743-4cfb-ad47-8269e8685987","type":"CDSView"},{"attributes":{"axis_label":"Month/Day","formatter":{"id":"4aa478e8-ba58-4c25-a717-2c559a4eedcb","type":"DatetimeTickFormatter"},"plot":{"id":"8c5b6bf8-27d4-4466-8ada-c22aa933c8a0","subtype":"Figure","type":"Plot"},"ticker":{"id":"32d97368-5089-4ce2-aa71-4f4c800e43b8","type":"BasicTicker"}},"id":"266253f2-6da0-47c8-98f7-359334e02abc","type":"LinearAxis"},{"attributes":{"data_source":{"id":"d99d01fb-304e-492d-8803-f2d6f0483d68","type":"ColumnDataSource"},"glyph":{"id":"41de3493-cd57-476c-a541-633c1578b3ee","type":"DiamondCross"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"6a688d33-edb8-4333-af66-ec1f0df15095","type":"DiamondCross"},"selection_glyph":null,"view":{"id":"92c90a3f-9743-4cfb-ad47-8269e8685987","type":"CDSView"}},"id":"50b3c2a4-ce3c-40ae-83c9-c3cab7c88960","type":"GlyphRenderer"},{"attributes":{"plot":null,"text":"UCSC Power Outages"},"id":"73a685c7-2ad3-4bd8-b959-e81d048456fc","type":"Title"},{"attributes":{"axis_label":"Year","formatter":{"id":"e615f4be-ab1e-4ff8-9fe4-a6f2f3976509","type":"BasicTickFormatter"},"minor_tick_line_color":{"value":null},"plot":{"id":"8c5b6bf8-27d4-4466-8ada-c22aa933c8a0","subtype":"Figure","type":"Plot"},"ticker":{"id":"928eef2e-9d12-4080-bcf7-29e250127fd5","type":"BasicTicker"}},"id":"4c735ea4-631a-452a-9c1b-dae75f2eb739","type":"LinearAxis"},{"attributes":{},"id":"ee2f8aea-b5d5-40a6-86b9-d896f6e6313f","type":"ResetTool"},{"attributes":{},"id":"e1ad7cf6-0193-4f85-87db-79268e9c6560","type":"LinearScale"},{"attributes":{"overlay":{"id":"a7251ce7-5dd3-402f-a8c7-bd6dcfe5b12d","type":"BoxAnnotation"}},"id":"067ca8a5-1451-4032-ba73-58da8df0dffe","type":"BoxZoomTool"},{"attributes":{},"id":"928eef2e-9d12-4080-bcf7-29e250127fd5","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"8c5b6bf8-27d4-4466-8ada-c22aa933c8a0","subtype":"Figure","type":"Plot"},"ticker":{"id":"928eef2e-9d12-4080-bcf7-29e250127fd5","type":"BasicTicker"}},"id":"a48c3191-4983-4551-90c7-1924403661cf","type":"Grid"},{"attributes":{"plot":{"id":"8c5b6bf8-27d4-4466-8ada-c22aa933c8a0","subtype":"Figure","type":"Plot"},"ticker":{"id":"32d97368-5089-4ce2-aa71-4f4c800e43b8","type":"BasicTicker"}},"id":"741ef63c-3b45-4936-a35a-0f00b559c264","type":"Grid"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"a7251ce7-5dd3-402f-a8c7-bd6dcfe5b12d","type":"BoxAnnotation"},{"attributes":{},"id":"e615f4be-ab1e-4ff8-9fe4-a6f2f3976509","type":"BasicTickFormatter"},{"attributes":{},"id":"44213f81-e288-4bf0-ae86-053885e2c9fc","type":"PanTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"44213f81-e288-4bf0-ae86-053885e2c9fc","type":"PanTool"},{"id":"067ca8a5-1451-4032-ba73-58da8df0dffe","type":"BoxZoomTool"},{"id":"ee2f8aea-b5d5-40a6-86b9-d896f6e6313f","type":"ResetTool"},{"id":"10ec4a9a-6f08-4f18-b3e8-085cd42efdc5","type":"HoverTool"}]},"id":"435dd04e-c3cc-4370-b6aa-94c6b06c91fa","type":"Toolbar"},{"attributes":{},"id":"32d97368-5089-4ce2-aa71-4f4c800e43b8","type":"BasicTicker"},{"attributes":{"days":["%b %d"],"hours":["%b %d %H:%M"],"minutes":["%b %d %H:%M"],"months":["%b %d"]},"id":"4aa478e8-ba58-4c25-a717-2c559a4eedcb","type":"DatetimeTickFormatter"},{"attributes":{"callback":null},"id":"2f1b5ed3-98ab-4182-b482-dcec4d5a2812","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"field":"length","units":"screen"},"x":{"field":"datetime"},"y":{"field":"year"}},"id":"6a688d33-edb8-4333-af66-ec1f0df15095","type":"DiamondCross"},{"attributes":{"below":[{"id":"266253f2-6da0-47c8-98f7-359334e02abc","type":"LinearAxis"}],"left":[{"id":"4c735ea4-631a-452a-9c1b-dae75f2eb739","type":"LinearAxis"}],"plot_height":400,"plot_width":800,"renderers":[{"id":"266253f2-6da0-47c8-98f7-359334e02abc","type":"LinearAxis"},{"id":"741ef63c-3b45-4936-a35a-0f00b559c264","type":"Grid"},{"id":"4c735ea4-631a-452a-9c1b-dae75f2eb739","type":"LinearAxis"},{"id":"a48c3191-4983-4551-90c7-1924403661cf","type":"Grid"},{"id":"a7251ce7-5dd3-402f-a8c7-bd6dcfe5b12d","type":"BoxAnnotation"},{"id":"50b3c2a4-ce3c-40ae-83c9-c3cab7c88960","type":"GlyphRenderer"}],"title":{"id":"73a685c7-2ad3-4bd8-b959-e81d048456fc","type":"Title"},"toolbar":{"id":"435dd04e-c3cc-4370-b6aa-94c6b06c91fa","type":"Toolbar"},"x_range":{"id":"2f1b5ed3-98ab-4182-b482-dcec4d5a2812","type":"DataRange1d"},"x_scale":{"id":"19693f16-ea27-4de4-ac81-b111f505f675","type":"LinearScale"},"y_range":{"id":"18dec58b-0548-4684-9415-eab31d125998","type":"DataRange1d"},"y_scale":{"id":"e1ad7cf6-0193-4f85-87db-79268e9c6560","type":"LinearScale"}},"id":"8c5b6bf8-27d4-4466-8ada-c22aa933c8a0","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"19693f16-ea27-4de4-ac81-b111f505f675","type":"LinearScale"},{"attributes":{"callback":null,"column_names":["date","start_time","end_time","type","datetime","length","daysfromjan","year","color","index"],"data":{"color":["red","blue","red","red","red","red","red","red","red","red","red","red","blue","blue","red","red","blue","red","red","red","red","red","red","blue","red","red","red","red","red","blue","blue","red","red","red","blue","red","red","red","red","red"],"date":["6/22/2019","6/22/2019","6/22/2019","6/20/2019","5/19/2019","1/31/2019","1/5/2019","12/5/2018","12/5/2018","11/27/2018","11/27/2018","11/21/2018","9/16/2018","9/15/2018","8/23/2018","6/11/2018","5/28/2018","02/12/2018","01/24/2018","12/16/2017","3/3/2017","2/17/2017","2/2/2017","1/19/2017","1/05/2017","1/04/2017","8/26/2016","8/11/2016","6/26/2016","6/16/2016","6/15/2016","4/7/2016","4/3/2016","4/1/2016","3/21/2016","3/5/2016","2/18/2016","11/28/2015","10/18/2015","10/16/2015"],"datetime":{"__ndarray__":"AAC+P8DhdEIAAHChneF0QgAASK2q4XRCAADO2gbhdEIAAGARstZ0QgAAWFDas3RCAABC4MKrdEIAABq+GRd1QgAAnP39FnVCAAAeAXsUdUIAAJAwcBR1QgAAdMibEnVCAABkh039dEIAAKQh+/x0QgAArt6k9XRCAAAUkynedEIAAICPmNl0QgAATGH+t3RCAAAEWr2xdEIAANYCrBp1QgAA2qH8vXRCAAAMGWe5dEIAAFIYn7R0QgAA2NoPsHRCAACmo32rdEIAAF4FRqt0QgAAmnGO9nRCAABC3OnxdEIAAAS21eJ0QgAA2K2y33RCAABwUHjfdEIAALhyJMl0QgAAdJnZx3RCAAB2UkzHdEIAAPAhysN0QgAABDmzvnRCAAAgFt25dEIAAJQk4RR1QgAA2PabB3VCAADuzxYHdUI=","dtype":"float64","shape":[40]},"daysfromjan":{"__ndarray__":"AAAAAACgZUAAAAAAAKBlQAAAAAAAoGVAAAAAAABgZUAAAAAAAGBhQAAAAAAAAD9AAAAAAAAAFEAAAAAAADB1QAAAAAAAMHVAAAAAAACwdEAAAAAAALB0QAAAAAAAUHRAAAAAAAAwcEAAAAAAACBwQAAAAAAAYG1AAAAAAABAZEAAAAAAAIBiQAAAAAAAgEVAAAAAAAAAOEAAAAAAAOB1QAAAAAAAAE9AAAAAAAAASEAAAAAAAIBAQAAAAAAAADNAAAAAAAAAFEAAAAAAAAAQQAAAAAAAwG1AAAAAAADga0AAAAAAACBmQAAAAAAA4GRAAAAAAADAZEAAAAAAAEBYQAAAAAAAQFdAAAAAAADAVkAAAAAAAABUQAAAAAAAAFBAAAAAAAAASEAAAAAAALB0QAAAAAAAIHJAAAAAAAAAckA=","dtype":"float64","shape":[40]},"end_time":["16:16","10:00","09:56","10:14","08:51","01:50","22:39","13:40","03:10","06:55","03:46","11:15","16:30","16:30","14:25","12:47","17:00","23:05","12:19","15:04","13:42","07:35","11:04","15:00","02:43","11:12","07:47","22:33","02:40","19:00","21:00","06:20","05:47","12:05","-","20:15","19:05","13:30","07:46","16:35"],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39],"length":{"__ndarray__":"YlCPQAfJMEAfZwUsWvhEQAlsqO63HC1AU8WuVtrCLkBwXmfJ2lpAQHOqPoQ7HjBAH2cFLFr4NEC4aOV9GFREQKxGSIgwY0BAc6o+hDseMEBzqj6EOx4wQI3b77g5iCZArP9dRlktSECs/11GWS1IQB2DFM+W9kNAiy+7SR7VM0DIW+oZ8s5HQIl28/AMlj5Ax1rLpWP0MUBMNGvVkLVDQHJ9Fz7O8jVAjdvvuDmIJkBwUM8HiqU6QHXF6H9pZUdAN+yB8TyvOEDbefut6KZBQB9nBSxa+DRAoKJxjoiyQED4uXjeREpCQMo/23a10EhANq5ZmsTtRkAbfahlxoNAQOtCOOIlJ0BA5KhImVuJPUDLI8zTeNJJQEaudVZwRUJAGkmJukWbQUBzqj6EOx5AQB463uXszDpADw1W6CWjNUA=","dtype":"float64","shape":[40]},"start_time":["16:05","06:00","09:48","10:05","07:44","01:40","22:19","10:07","02:02","06:45","03:36","11:10","06:30","06:30","11:25","12:30","08:00","22:26","12:06","12:25","13:19","07:30","10:59","07:00","02:09","09:57","07:27","21:15","00:54","07:00","14:00","05:08","04:46","11:37","14:00","18:30","17:52","12:30","07:00","16:13"],"type":["unplanned","planned","unplanned","unplanned","unplanned","unplanned","unplanned","unplanned","unplanned","unplanned","unplanned","unplanned","planned","planned","unplanned","unplanned","planned","unplanned","unplanned","unplanned","unplanned","unplanned","unplanned","planned","unplanned","unplanned","unplanned","unplanned","unplanned","planned","planned","unplanned","unplanned","unplanned","planned","unplanned","unplanned","unplanned","unplanned","unplanned"],"year":{"__ndarray__":"AAAAAACMn0AAAAAAAIyfQAAAAAAAjJ9AAAAAAACMn0AAAAAAAIyfQAAAAAAAjJ9AAAAAAACMn0AAAAAAAIifQAAAAAAAiJ9AAAAAAACIn0AAAAAAAIifQAAAAAAAiJ9AAAAAAACIn0AAAAAAAIifQAAAAAAAiJ9AAAAAAACIn0AAAAAAAIifQAAAAAAAiJ9AAAAAAACIn0AAAAAAAISfQAAAAAAAhJ9AAAAAAACEn0AAAAAAAISfQAAAAAAAhJ9AAAAAAACEn0AAAAAAAISfQAAAAAAAgJ9AAAAAAACAn0AAAAAAAICfQAAAAAAAgJ9AAAAAAACAn0AAAAAAAICfQAAAAAAAgJ9AAAAAAACAn0AAAAAAAICfQAAAAAAAgJ9AAAAAAACAn0AAAAAAAHyfQAAAAAAAfJ9AAAAAAAB8n0A=","dtype":"float64","shape":[40]}}},"id":"d99d01fb-304e-492d-8803-f2d6f0483d68","type":"ColumnDataSource"},{"attributes":{"callback":null},"id":"18dec58b-0548-4684-9415-eab31d125998","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.4},"fill_color":{"field":"color"},"line_alpha":{"value":0.4},"size":{"field":"length","units":"screen"},"x":{"field":"datetime"},"y":{"field":"year"}},"id":"41de3493-cd57-476c-a541-633c1578b3ee","type":"DiamondCross"}],"root_ids":["8c5b6bf8-27d4-4466-8ada-c22aa933c8a0"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"7f48a859-e0df-4144-9109-7a2be5d713ea","elementid":"798924f2-2024-4b2c-b24e-e666009b3ad0","modelid":"8c5b6bf8-27d4-4466-8ada-c22aa933c8a0"}];
+
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+
+        </script>
+    </body>
+</html>
